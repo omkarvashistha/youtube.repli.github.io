@@ -1,0 +1,351 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+
+.Top_menu{
+    height: 56px;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #202020;
+}
+
+.first_part{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu{
+    padding-top: 11px;
+}
+
+.menu_icon{
+    width: 23px;
+    height: 1.7px;
+    background-color: #eaeaea;
+    margin-top: 4px;
+}
+
+.you_tube_logo{
+    display: flex;
+    direction: row;
+    margin-left: 20px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.you-tube-button-img{
+    height: 40px;
+    width: 120px;
+}
+
+.second_part{
+    display: flex;
+    direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top:10px;
+
+}
+
+.search_part{
+    margin: 5px;
+    margin-right:0px;
+    position: relative;
+    align-items: center;
+    height: 40px;
+    overflow: hidden;
+    border: 0.1px solid black;
+    background-color: black;
+    display: flex;
+    direction: row;
+    padding-left: 5px;
+}
+
+.search_bar input{
+    height: 30px;
+    width:500px;
+    font-size: 16px;
+    border: none;
+    color:white;
+    box-shadow: none;
+    background: transparent;
+    background-color: transparent;
+}
+
+.search_bar input,.search_bar input ::placeholder{
+    font-size: 14px;
+}
+
+.search_part_btn{
+    margin-left: 2px;
+    background: transparent;
+    padding-top:2px;
+}
+
+.search_button{
+    background-color: #313131;
+    height: 40px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.search_button button{
+    background-color: transparent;
+    border: none;
+}
+
+.search_button button i{
+    color:white
+}
+
+.third_part{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.third_part i{
+    color: white;
+    width: 20px;
+    height:20px;
+    font-size: 30px;
+}
+
+.main_body{
+    background-color: #181818;
+    /*margin: 10px;*/
+    align-items: center;
+    color: #eaeaea;
+    height:100%;
+    display: flex;
+    direction: row;
+    align-content: space-between;
+    justify-content: start;
+    align-items: start;
+}
+
+.screen_part{
+    width:65%;
+    margin-top:20px;
+    margin-left: 40px;
+   /* background-color: blue;*/
+    padding: 10px;
+}
+
+.you_tube_player{
+    width:100%;
+    height:500px;
+    border: 1px solid black;
+    background-image: url(https://wallpaper.dog/large/20545840.jpg);
+    background-size: cover;
+}
+
+/* Text Below video */
+
+.hashtags{
+    margin-top: 20px;
+    color:#3ea6ff;
+}
+
+.video_title{
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.video_stats{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding-top:5px;
+}
+
+.video_views{
+    color:#AAAAAA;
+}
+
+.video_reactions{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.video_reactions div i{
+    margin: 0px 10px;
+}
+
+.test{
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+    padding-bottom: 0px;
+    padding-top: 4px;
+    color: white;
+}
+
+/**/
+
+/*RIGHT PART*/
+
+.video_part{
+    width:29%;
+    margin-top:20px;
+    margin-right: 15px;
+    /*background-color: white;*/
+    height:auto;
+    padding: 10px;
+}
+
+.ad_pic img{
+    width:100%;
+    height: 66.66px;
+}
+
+.ad_data{
+   /* background-color: red;*/
+    height: 60px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.ad_data img{
+    width:48px;
+    height: 48px;
+}
+
+.ad_data_text{
+    width: 60%;
+    width: 2px 0px;
+    height:auto;
+    padding: 5px;
+    margin-left: 5px;
+   /* border: 1px solid white;*/
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+
+.ad_text_data_first{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+.ad_data_text_second{
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+.learn_more_btn{
+    vertical-align: bottom;
+    width:120px;
+    height:36.8px;
+    background-color: rgb(62,166,255);
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+/*SECOND AD*/
+
+.ad_2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:10px;
+    /*background-color: red;*/
+}
+
+.ad_2 img{
+    width:168px;
+    height:168px;
+}
+
+.ad_2_text_btn{
+    width:60%;
+    margin-left: 6px;
+}
+
+.ad_2_txt_1{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.ad_2_txt_2{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+
+.ad_2_txt_3{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:5px;
+    margin-bottom: 10px;
+}
+
+.ad_2_btn button{
+    width:140px;
+    height: 36px;
+    transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: #263850;
+    color: #3ea6ff;
+    border: none;
+    border-radius: 0px;
+    margin-top: 5px;
+}
+
+/**/
+
+/*VIDEOS PART*/
+
+.videos{
+    display: flex;
+    margin: 5px 0px;
+}
+
+.video_img img{
+    width:168px;
+}
+
+.video_data{
+    margin-left: 6px;
+}
+
+.vid_data_1{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.vid_data_2{
+    font-size: 12px;
+    margin-top : 2px;
+    margin-bottom: 3px;
+    color:#AAAAAA;
+}
+
+.vid_data_3{
+    font-size: 12px;
+    margin-top : 2px;
+    margin-bottom: 3px;
+    color:#AAAAAA;
+}
