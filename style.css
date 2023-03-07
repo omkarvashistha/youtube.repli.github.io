@@ -8,6 +8,7 @@ body{
 
 .Top_menu{
     height: 56px;
+    width: 100%;
     padding: 0 16px;
     display: flex;
     flex-direction: row;
@@ -114,7 +115,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -123,7 +124,7 @@ body{
     color: white;
     width: 20px;
     height:20px;
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .main_body{
@@ -131,13 +132,15 @@ body{
     /*margin: 10px;*/
     align-items: center;
     color: #eaeaea;
-    height:100%;
+    height:fit-content;
     display: flex;
     direction: row;
     align-content: space-between;
     justify-content: start;
     align-items: start;
 }
+
+
 
 .screen_part{
     width:65%;
@@ -152,7 +155,7 @@ body{
     height:500px;
     border: 1px solid black;
     background-image: url(https://wallpaper.dog/large/20545840.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 /* Text Below video */
@@ -325,6 +328,7 @@ body{
 
 .video_img img{
     width:168px;
+    height : 100px;
 }
 
 .video_data{
@@ -348,4 +352,51 @@ body{
     margin-top : 2px;
     margin-bottom: 3px;
     color:#AAAAAA;
+}
+
+@media (max-width : 800px) {
+    .main_body{
+        flex-direction: column;
+    }
+
+    .Top_menu{
+        width : 80%;
+        justify-content: start;
+        padding: 0 1%;
+    }
+
+    .second_part{
+        width:50%;
+    }
+
+    .search_part{
+        width:50%;
+    }
+
+    .third_part{
+        margin-left: 1%;
+        width: 100%;
+    }
+
+    .third_part i{
+        font-size: 2rem;
+        margin: 2%;
+    }
+
+    .you_tube_logo{
+        margin-right: 0;
+    }
+
+    .video_reactions div i{
+        font-size: 1.5rem;
+    }
+
+    .screen_part{
+        width: 80%;
+        padding: 0;
+    }
+
+    .video_part{
+        width: 80%;
+    }
 }
